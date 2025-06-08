@@ -5,20 +5,20 @@ export default function Home() {
     <div className="font-[family-name:var(--font-geist-sans)]">
       <header>
         <nav className="lg:px-6 py-2.5">
-          <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <a href="localhost:3000" className="flex items-center text-3xl tracking-wider">
+          <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl bottom-0">
+            <a href="localhost:3000" className="flex items-center text-3xl tracking-wider hover:text-gray-600">
               Jacob Smith
             </a>
             <div className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
-            <ul className="flex flex-col mt-4 font-xl lg:flex-row lg:space-x-8 lg:mt-0">
+            <ul className="flex flex-col mt-4 text-xl lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Portfolio</a>
+                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded hover:text-gray-600">Portfolio</a>
               </li>
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Blog</a>
+                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded hover:text-gray-600">Blog</a>
               </li>
               <li>
-                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Contact Me</a>
+                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded hover:text-gray-600">Contact</a>
               </li>
             </ul>
             </div>
