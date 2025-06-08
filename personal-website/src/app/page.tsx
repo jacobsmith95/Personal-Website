@@ -9,8 +9,20 @@ export default function Home() {
             <a href="localhost:3000" className="flex items-center text-3xl tracking-wider">
               Jacob Smith
             </a>
+            <div className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
+            <ul className="flex flex-col mt-4 font-xl lg:flex-row lg:space-x-8 lg:mt-0">
+              <li>
+                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Portfolio</a>
+              </li>
+              <li>
+                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Blog</a>
+              </li>
+              <li>
+                <a href="#" className="block py-2 pr-4 pl-3 text-white rounded bg-primary-700 lg:bg-transparent lg:text-primary-700 lg:p-0 dark:text-white">Contact Me</a>
+              </li>
+            </ul>
+            </div>
           </div>
-
         </nav>
       </header>
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -62,38 +74,6 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <footer className="row-start-3 flex gap-[40px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://github.com/jacobsmith95"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={40}
-            height={40}
-          />
-          Github
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/jacob-smith-53233279"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={40}
-            height={40}
-          />
-          LinkedIn
-        </a>
-      </footer>
       </div>
     </div>
   );
