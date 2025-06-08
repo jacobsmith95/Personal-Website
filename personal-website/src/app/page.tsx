@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="font-[Savate]">
       <header className="sticky top-0">
-        <nav className="lg:px-6 py-2.5">
+        <nav className="lg:px-6 py-2.5 backdrop-filter backdrop-blur-lg bg-opacity-80">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <a href="localhost:3000" className="flex items-center text-3xl tracking-wider hover:text-gray-600">
               Jacob Smith
@@ -25,12 +25,12 @@ export default function Home() {
           </div>
         </nav>
       </header>
-      <div className="grid grid-rows-[20px_1fr_px] items-center justify-items-center content-center">
-        <h1 className="font-[Savate] text-6xl tracking-widest">
-          Designed. Built. Loved.
+      <div className="grid grid-rows-[20px_1fr_px] items-center justify-items-center">
+        <h1 className="font-[Savate] text-9xl tracking-widest pt-72">
+          Designed. <br></br> Built. <br></br> Loved.
         </h1>
       </div>
-      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="grid grid-rows-3 items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       
       </div>
     </div>
