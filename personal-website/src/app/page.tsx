@@ -2,15 +2,21 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="font-[family-name:var(--font-geist-sans)]">
       <header>
-        <h1 className="flex text-xl items-center justify-items-center">
-          Jacob Smith
-        </h1>
+        <nav className="lg:px-6 py-2.5">
+          <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+            <a href="localhost:3000" className="flex items-center text-3xl tracking-wider">
+              Jacob Smith
+            </a>
+          </div>
+
+        </nav>
       </header>
-      <main className="flex flex-col gap-[32px] row-start-2 flex-wrap items-center justify-items-center sm:items-start">
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      <div className="flex flex-col gap-[32px] row-start-2 flex-wrap sm:items-start">
         <Image
-          className="dark:invert"
+          className="float-left dark:invert"
           src="/next.svg"
           alt="Next.js logo"
           width={180}
@@ -55,7 +61,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-      </main>
+      </div>
       <footer className="row-start-3 flex gap-[40px] flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
@@ -88,6 +94,7 @@ export default function Home() {
           LinkedIn
         </a>
       </footer>
+      </div>
     </div>
   );
 }
