@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Jacob Smith",
-  description: "Jacob's Portfolio Website",
+  description: "Jacob's Website",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav className="lg:px-6 py-2.5 backdrop-filter backdrop-blur-lg bg-opacity-80 sticky top-0">
+        <nav className="font-[Savate] lg:px-6 py-2.5 backdrop-filter backdrop-blur-lg bg-opacity-80 sticky top-0">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
             <Link href="/" className="flex items-center text-3xl tracking-wider hover:text-gray-600">Jacob Smith</Link>
             <div className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
