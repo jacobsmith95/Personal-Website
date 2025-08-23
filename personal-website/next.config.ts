@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
   assetPrefix: isGitHubPages ? 'https://<Account-name>/<Repository-name>' : '',
   output: "export",
   reactStrictMode: true,
+  basePath: process.env.NODE_ENV === 'production' ? '/personal-website' : '',
 };
 
 export default nextConfig;
