@@ -17,7 +17,7 @@ export default function RootLayout({
       <body>
         <nav className="font-[Savate] lg:px-6 py-2.5 backdrop-filter backdrop-blur-lg bg-opacity-80 sticky top-0">
           <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-            <Link href="/" className="flex items-center text-3xl tracking-wider hover:text-gray-600">Jacob Smith</Link>
+            <div className="flex items-center text-5xl tracking-wider hover:text-gray-600">Jacob Smith</div>
             <div className="justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
             <ul className="flex flex-col mt-4 text-3xl lg:flex-row lg:space-x-8 lg:mt-0">
               <li>
@@ -27,7 +27,7 @@ export default function RootLayout({
                 {/* <a href="#" className="block py-2 pr-4 pl-3 text-white rounded hover:text-gray-600">Blog</a> */}
               </li>
               <li>
-                <Link href="/contact" className="block py-2 pr-4 pl-3 text-white rounded hover:text-gray-600">Contact</Link>
+                {/* <Link href="/contact" className="block py-2 pr-4 pl-3 text-white rounded hover:text-gray-600">Contact</Link> */}
               </li>
             </ul>
             </div>
